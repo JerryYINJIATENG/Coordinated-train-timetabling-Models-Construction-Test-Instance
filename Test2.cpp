@@ -1,4 +1,3 @@
-// Using "back-up" to reschedule trains 
 // CPLEX code and Decomposition approaches 
 // By Jiateng Yin at Beijing Jiaotong
 
@@ -45,7 +44,7 @@ std::map<int, vector<float>>  g_path_link_cost_mapping;
 ///////////////////////////// Parameters
 // Construct the space time network by connected graph
 // Use CPLEX TO SOLVE THE ORIGINAL MODEL
-// Original subproblem: MIP¡¢
+// Original subproblem: MIPÂ¡Â¢
 
 float g_demand_array[_MAX_ZONE][_MAX_ZONE][_MAX_TIME] = { 0.0 };
 float g_demand_waiting[_MAX_ZONE][2][_MAX_TIME] = { 0.0 }; // From Line a to Line b
